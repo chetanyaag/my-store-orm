@@ -20,15 +20,3 @@ exports.AppDataSource = new typeorm_1.DataSource({
     synchronize: false, // Use migrations instead of auto-syncing
     logging: true,
 });
-// export const AppDataSource = new DataSource({
-//     type: 'postgres',
-//     host: process.env.DB_HOST || 'localhost',
-//     port: Number(process.env.DB_PORT) || 5432,
-//     username: process.env.DB_USER || 'postgres',
-//     password: process.env.DB_PASS || 'password',
-//     database: process.env.DB_NAME || 'mydb',
-//     entities: ["src/entities/*.ts"],
-//     migrations: ['src/migrations/*.ts'],
-//     synchronize: false, // Migrations will handle schema changes
-//       logging: true,
-//   });

@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "dist/data-source.js",
+  "types": "dist/data-source.d.ts",
   "scripts": {
     "build": "tsc",
     "typeorm": "node --loader ts-node/esm ./node_modules/typeorm/cli.js",

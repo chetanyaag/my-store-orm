@@ -2,7 +2,7 @@
   "name": "my-store-orm",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "dist/data-source.js",
   "scripts": {
     "build": "tsc",
     "typeorm": "node --loader ts-node/esm ./node_modules/typeorm/cli.js",

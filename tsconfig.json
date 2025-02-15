@@ -1,16 +1,24 @@
 {
     "compilerOptions": {
-      "module": "NodeNext",
-      "moduleResolution": "NodeNext",
-      "target": "ESNext",
-      "strict": true,
+      // "module": "NodeNext",
+      // "moduleResolution": "NodeNext",
+      // "target": "ESNext",
+      // "strict": true,
       "baseUrl": "./",
       "experimentalDecorators": true,
       "emitDecoratorMetadata": true,
       "strictPropertyInitialization": false,
       "paths": {
         "*": ["node_modules/*"]
-      }
-    }
+      },
+    "outDir": "dist",
+    "module": "CommonJS",
+    "target": "ES6",
+    "rootDir": "src",
+    "strict": true,
+    "moduleResolution": "Node",
+    "esModuleInterop": true
+    },
+    "include": ["src"]
   }
   

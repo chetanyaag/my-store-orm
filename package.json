@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "tsc",
     "typeorm": "node --loader ts-node/esm ./node_modules/typeorm/cli.js",
     "migration:generate": "npm run typeorm migration:generate -- -d src/data-source.ts src/migrations/MigrationName",
     "migration:run": "npm run typeorm migration:run -- -d src/data-source.ts"

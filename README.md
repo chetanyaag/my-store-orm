@@ -66,7 +66,7 @@ npm run migration:run
 
 ## Seed data
 ```sh
-    npm run seed
+npm run seed
 ```
 
 

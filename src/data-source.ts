@@ -11,8 +11,8 @@ export const AppDataSource = new DataSource({
   username: process.env.DB_USER || "root",
   password: process.env.DB_PASS || "password",
   database: process.env.DB_NAME || "nestjs_db",
-  entities: ["src/entities/*.ts"],
-  migrations: ["src/migrations/*.ts"],
+  entities: ["src/entities/*.ts", "dist/entities/*.js"],
+  migrations: ["src/migrations/*.ts", "dist/migrations/*.js"],
   synchronize: false, // Use migrations instead of auto-syncing
   logging: true,
 });

@@ -1,4 +1,4 @@
-import { Product } from './Product.js';
+import { Product } from './Product';
 export declare class Category {
     id: number;
     name: string;

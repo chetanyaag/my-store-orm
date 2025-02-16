@@ -11,7 +11,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.Category = void 0;
 const typeorm_1 = require("typeorm");
-const Product_js_1 = require("./Product.js");
+const Product_1 = require("./Product");
 let Category = class Category {
 };
 exports.Category = Category;
@@ -32,7 +32,7 @@ __decorate([
     __metadata("design:type", Boolean)
 ], Category.prototype, "isActive", void 0);
 __decorate([
-    (0, typeorm_1.OneToMany)(() => Product_js_1.Product, (product) => product.category),
+    (0, typeorm_1.OneToMany)(() => Product_1.Product, (product) => product.category),
     __metadata("design:type", Array)
 ], Category.prototype, "products", void 0);
 __decorate([

@@ -9,10 +9,10 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
     });
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.MigrationName1739615306095 = void 0;
-class MigrationName1739615306095 {
+exports.MigrationName1739688626643 = void 0;
+class MigrationName1739688626643 {
     constructor() {
-        this.name = 'MigrationName1739615306095';
+        this.name = 'MigrationName1739688626643';
     }
     up(queryRunner) {
         return __awaiter(this, void 0, void 0, function* () {
@@ -29,4 +29,4 @@ class MigrationName1739615306095 {
         });
     }
 }
-exports.MigrationName1739615306095 = MigrationName1739615306095;
+exports.MigrationName1739688626643 = MigrationName1739688626643;

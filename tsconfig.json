@@ -1,23 +1,23 @@
 {
-    "compilerOptions": {
-      "outDir": "dist",
-      "module": "commonjs",
-      "target": "ES6",
-      "rootDir": "src",
-      "strict": true,
-      "moduleResolution": "Node",
-      "esModuleInterop": true,
-      "baseUrl": "./",
-      "experimentalDecorators": true,
-      "emitDecoratorMetadata": true,
-      "strictPropertyInitialization": false,
-      "paths": {
-        "*": ["node_modules/*"]
-      },
-
-    "declaration": true,   
-    "declarationMap": true
+  "compilerOptions": {
+    "outDir": "dist",
+    "module": "CommonJS",
+    "target": "ES6",
+    "rootDir": "src",
+    "strict": true,
+    "moduleResolution": "Node",
+    "esModuleInterop": true,
+    "baseUrl": "./",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "resolveJsonModule": true,
+    "allowSyntheticDefaultImports": true,
+    "strictPropertyInitialization": false,
+    "paths": {
+      "*": ["node_modules/*"]
     },
-    "include": ["src"]
-  }
-  
+    "declaration": true,
+    "declarationMap": true
+  },
+  "include": ["src/**/*"]
+}

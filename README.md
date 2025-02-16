@@ -3,11 +3,11 @@
 This Module is a part of the **MyStore** full-stack application, which consists of:
 
 - **my-store-orm**: A module responsible for handling database transactions.(This repo)
-- **my-store-backend**(https://github.com/chetanyaag/my-store-backend): A module responsible for handling database transactions.
+- [**my-store-backend**](https://github.com/chetanyaag/my-store-backend): A module responsible for handling database transactions.
 - [**my-store-app**](https://github.com/chetanyaag/my-store-app): A React-based frontend application that consumes this API and renders data to users.
 
 
-## Prequitics
+## Prerequisite
 - A Mysql server running on port 3306
 - A database created with name mystore
 
@@ -25,7 +25,7 @@ This Module is a part of the **MyStore** full-stack application, which consists 
 3. Install dependencies:
    ```sh
    npm install
-   ```sh
+   ```
 4. Run migrations
     ```sh
     npm run migration:run
